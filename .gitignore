@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 가상환경
+venv/
+.env/            # pyenv-virtualenv 환경일 때 자동 생성되는 디렉토리
+
+# 환경변수
+.env             # 실제 키가 들어있는 파일
+*.env            # 혹시 개발자가 파일명을 달리 쓸 때
+
+# 로그 · 캐시 · IDE
+*.log
+*.sqlite3
+.DS_Store
+.idea/
+.vscode/
+
